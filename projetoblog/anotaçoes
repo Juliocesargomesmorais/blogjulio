@@ -1,0 +1,39 @@
+Cada linha de comando deve estar envolvida em chaves ( {}).
+Dentro de cada declaração, você deve usar dois pontos ( :) para separar a propriedade de seus valores.
+Dentro de cada conjunto de regras, você deve usar um ponto e vírgula ( ;) para separar cada declaração da próxima vez.
+
+alguns elementos
+width(largura de um elemento).
+background-color, atrás do conteúdo de um elemento e do preenchimento.
+color, a cor do conteúdo de um elemento (geralmente texto).
+text-shadow: cria uma sombra no texto dentro de um elemento.
+display: defina a maneira de dispor de um elemento (não se preocupe com isso ainda).
+
+id
+#my-idSelecionado <p id="my-id">ou<a id="my-id">
+
+class
+.my-classSelecionado <p class="my-class">e<a class="my-class">
+
+caixas
+padding, o espaço ao redor do conteúdo (ex.: ao redor do texto de um parágrafo).
+border, uma linha sólida do lado de fora do preenchimento.
+margin, o espaço externo a um elemento.
+
+width: 600px;— Isso força o corpo a ter 600 pixels de largura.
+margin: 0 auto;— Quando você define dois valores em uma propriedade como marginou padding, o primeiro valor afeta a parte superior do elemento e a parte inferior (tornando-os 0nesse caso), e no segundo valor os lados esquerdo e direito (aqui, autoé um valor especial que divide o espaço horizontal uniformemente entre esquerda e direita). Você também pode usar um, três ou quatro valores, conforme documentado aqui .
+background-color: #FF9500;— como antes, isso define o cor de fundo do elemento. Usamos um tipo de laranja avermelhado no corpo, para opor ao azul escuro no elemento <html>, mas fique à vontade para ir em frente e experimentar.
+padding: 0 20px 20px 20px;— temos quatro valores definidos no padding, para criar um pouco de espaço em torno do nosso conteúdo. Dessa vez, estamos definindo sem preenchimento na parte superior do corpo, e 20 pixels no lado esquerdo, na parte inferior e no lado direito. Os valores definem a parte superior, o lado direito, a parte inferior e o lado esquerdo, nessa ordem. Como com a margin, você também pode usar um, dois, ou três valores, conforme documentado na sintaxe do padding .
+border: 5px solid black;— isso simplesmente define uma borda preta sólida de 5 pixels de largura em todos os lados do corpo.
+
+Uma propriedade bastante interessante que usaremos aqui é o text-shadow, que aplica uma sombra ao conteúdo do texto do elemento. Seus quatro valores são os seguintes:
+O primeiro valor em pixel define a posição horizontal da sombra do texto — até onde ele se move: um valor negativo deve mover-se para a esquerda.
+O segundo valor em pixel define a posição vertical da sombra do texto — o quanto ela se move para baixo, neste exemplo; um valor negativo deve ser movido para cima.
+O terceiro valor em pixel define o raio de desfoque da sombra — um valor maior significará uma sombra mais borrada.
+O quarto valor define a cor base da sombra.
+
+Você pode colocar elementos dentro de outros elementos também — isso é chamado de aninhamento. Se quiséssemos afirmar que nosso gato é muito mal-humorado, poderíamos envolver a palavra "muito" em um elemento <strong>, o que significa que a palavra deve ser fortemente enfatizada:
+
+javascript
+Vá para o seu site de teste e crie uma nova pasta chamada scripts. Dentro da pasta scripts, crie um novo documento de texto chamado main.js e salve-o.
+Em seu arquivo index.html, insira este código em uma nova linha, logo antes da tag de fechamento </body>:
